@@ -1,0 +1,10 @@
+{
+  "name": "vyla-siteflare",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --dir ../main run siteflare:dev",
+    "build": "pnpm --dir ../main run siteflare:build",
+    "preview": "pnpm --dir ../main run siteflare:preview"
+  }
+}
